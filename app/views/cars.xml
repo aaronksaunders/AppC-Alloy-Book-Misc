@@ -1,0 +1,8 @@
+<Alloy>
+    <Window id="mainWindow" class="container">
+        <TableView dataCollection="cars" dataTransform="transformFunction" dataFilter="filterFunction">
+            <!-- Also can use Require -->
+            <TableViewRow title="{title}" />
+        </TableView>
+    </Window>
+</Alloy>
