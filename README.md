@@ -12,13 +12,6 @@ Book is available at
 This is a repository of the project used in the book to provide a basic overview of using models in appcelerator alloy
 
 ----------------------------------
-Stuff our legal folk make us say:
 
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2012 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
+A more detailed and complete example is outlined here [in my book on Appcelerator Alloy Development](https://github.com/aaronksaunders/AppC-Alloy-Book)
 
