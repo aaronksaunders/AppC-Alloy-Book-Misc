@@ -18,3 +18,6 @@ function filterFunction(collection) {
 $.mainWindow.addEventListener('close', function() {
     $.destroy();
 });
+
+
+$.mainWindow.top = theTop;

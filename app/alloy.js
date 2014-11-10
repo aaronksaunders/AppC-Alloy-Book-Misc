@@ -9,3 +9,23 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+// Function to test if device is iOS 7 or later
+
+Ti.UI.setBackgroundColor('white');
+
+function isIOS7Plus() {
+  // iOS-specific test
+  if (Titanium.Platform.name == 'iPhone OS') {
+    var version = Titanium.Platform.version.split(".");
+    var major = parseInt(version[0], 10);
+
+    // Can only test this support on a 3.2+ device
+    if (major >= 7) {
+      return true;
+    }
+  }
+  return false;
+}
+
+var iOS7 = isIOS7Plus();
+var theTop = iOS7 ? 20 : 0; 
